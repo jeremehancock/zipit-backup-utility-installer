@@ -33,8 +33,10 @@ $string = $_SERVER["PHP_DOCUMENT_ROOT"];
     if (strpos($server,'websitetestlink') !== false) {
         $split = explode(".php",$server,2);
         $url = $split[0];
+        $url = str_replace("www.", "", $url);
     } else {
         $url = $_SERVER['SERVER_NAME'];
+        $url = str_replace("www.", "", $url);
     }
 
 // define backup path
