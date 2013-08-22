@@ -46,6 +46,7 @@ $string = $_SERVER["PHP_DOCUMENT_ROOT"];
 $hash = substr(hash("sha512",rand()),0,12); // Reduces the size to 12 chars
 
 if (isset($_POST["Submit"])) {
+
 // grab the latest version of zipit from github
 shell_exec('wget https://github.com/jeremehancock/zipit-backup-utility/archive/master.zip --no-check-certificate -O zipit.zip; unzip zipit.zip; mv zipit-backup-utility-master* zipit; rm zipit.zip');
 
@@ -76,6 +77,9 @@ $path = "'. $_POST["path"]. '";
 
 // Zipit Auth Hash
 $auth_hash = "'. $_POST["hash"]. '";
+
+// Usage Feedback
+$usage_feedback = "'. $_POST["usage"]. '";
 
 ?>';
 
@@ -255,6 +259,17 @@ button.css3button {
             padding-left:8px;
             padding-right:8px;
 }
+
+input[type=checkbox] {  
+   border: 1px solid #818185; 
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            height:20px;
+            width:30px;
+            padding-right:8px; 
+            position:relative;
+            top:3px;  
+}  
 
 .logs {
     -moz-border-radius-topleft: 5px; 
@@ -524,6 +539,10 @@ function removeSpaces(string) {
 <p>
     API Key:<br />
     <input name="key" type="password" id="key" onblur="this.value=removeSpaces(this.value);" required> <img src="https://raw.github.com/jeremehancock/zipit-backup-utility/master/images/hint.png" title="This is your API Key." />
+</p>
+<br />
+<p>
+    <input type="checkbox" name="usage" id="usage" value="allow" checked />Help make Zipit better by providing usage feedback. <a href="http://statcounter.com/about/cookies/" target="_blank">More info... <img src="https://raw.github.com/jeremehancock/zipit-backup-utility/master/images/open_in_new_window.png"/></a>
 </p>
 
 <p>
