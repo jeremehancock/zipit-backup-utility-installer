@@ -126,6 +126,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+background-color:#7397a7;
 }}
 
 h2{ 
