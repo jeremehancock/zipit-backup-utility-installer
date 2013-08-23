@@ -121,8 +121,12 @@ echo "</script>";
 
 body {
 	font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-        background:#ccc;
-}
+        background:#ccc;background: url(https://raw.github.com/jeremehancock/zipit-backup-utility/master/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}}
 
 h2{ 
 	margin-bottom:10px;
