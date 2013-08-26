@@ -599,7 +599,7 @@ $('input').bind('keypress', function (event) {
 });
 </script>
 <br />
-<font size="1em">Developed by <a href="http://www.cloudsitesrock.com" target="_blank">Jereme Hancock</a> for Rackspace Cloud Sites&reg;</font>
+<font size="1em">Developed by <a href="https://github.com/jeremehancock" target="_blank">Jereme Hancock</a> for Rackspace Cloud Sites&reg;</font>
 </div>
 </div></div>
 
