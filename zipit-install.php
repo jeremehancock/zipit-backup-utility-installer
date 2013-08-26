@@ -120,7 +120,7 @@ echo "</script>";
 }
 
 body {
-	font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font: 1em "Arial", sans-serif;
         background:#ccc;background: url(https://raw.github.com/jeremehancock/zipit-backup-utility/master/images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -131,6 +131,19 @@ background-color:#7397a7;
 
 h2{ 
 	margin-bottom:10px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+h5{ 
+	font-size:1.5em;
+	margin-bottom:0px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4{ 
+	font-size:1.1em;
+	margin-bottom:0px;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 #wrapper{
@@ -141,6 +154,7 @@ h2{
 #wrapper h1{
 	color:#2E2E2E;
 	margin-bottom:10px;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 #wrapper a{
@@ -511,6 +525,7 @@ function removeSpaces(string) {
 }
 </script>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
