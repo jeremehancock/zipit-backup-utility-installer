@@ -599,10 +599,10 @@ $('input').bind('keypress', function (event) {
     }
 });
 </script>
-<br />
-<font size="1em">Developed by <a href="https://github.com/jeremehancock" target="_blank">Jereme Hancock</a> for Rackspace Cloud Sites&reg;</font>
+
+
 </div>
-</div></div>
+</div><div class="dev_by" id="dev_by">Developed by: <a href="https://github.com/jeremehancock" target="_blank">Jereme Hancock</a></div></div>
 
 
 </body>
