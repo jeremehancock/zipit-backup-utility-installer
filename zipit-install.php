@@ -168,6 +168,7 @@ h4 {
 	width:700px;
 	padding:15px;
 	background-color:#2e2e2e;
+   web-kit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px; 
 }
@@ -191,14 +192,12 @@ h4 {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-bottomright: 0px;
-	-moz-border-radius-bottomleft: 0px;
-	border-top-left-radius:5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 0px;
-	border-bottom-left-radius: 0px; 
+	-webkit-border-top-left-radius: 5px;
+   -webkit-border-top-right-radius: 5px;
+   -moz-border-radius-topleft: 5px;
+   -moz-border-radius-topright: 5px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px; 
 	background: #C9C9C9; /* old browsers */
 	background: -moz-linear-gradient(top, #0C91EC 0%, #257AB6 100%); /* firefox */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0C91EC), color-stop(100%,#257AB6)); /* webkit */
@@ -221,14 +220,9 @@ h4 {
 }
 
 #tabscontent {
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-bottomright: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px; 
+	-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
 	padding:10px 10px 25px;
 	background: #FFFFFF; /* old browsers */
 	background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 90%, #e4e9ed 100%); /* firefox */
@@ -244,9 +238,9 @@ button.css3button {
 	padding: 10px 20px;
 	background: -moz-linear-gradient(top, #e6e6e6 0%, #a3a3a3);
 	background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#a3a3a3));
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
 	border: 1px solid #d6d6d6;
 	-moz-box-shadow:0px 0px 0px rgba(000,000,000,0), inset 0px 0px 0px rgba(255,255,255,0);
 	-webkit-box-shadow:0px 0px 0px rgba(000,000,000,0), inset 0px 0px 0px rgba(255,255,255,0);
@@ -256,8 +250,9 @@ button.css3button {
 
 input { 
    border: 1px solid #818185; 
+   -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
-   border-radius: 5px;
+   border-radius: 5px;;
    height:30px;
    width:170px;
    padding-left:8px;
@@ -277,14 +272,9 @@ input[type=checkbox] {
 }  
 
 .logs {
-    -moz-border-radius-topleft: 5px; 
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px; 
-    border-bottom-left-radius: 5px;
-    -moz-border-radius-topright: 5px; 
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px; 
-    border-bottom-right-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;;
     background: #000000;
     color: #ffffff;
     padding-left: 14px; 
@@ -292,78 +282,53 @@ input[type=checkbox] {
     }
 
 .logs_frame {
-    -moz-border-radius-topleft: 5px; 
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px; 
-    border-bottom-left-radius: 5px;
-    -moz-border-radius-topright: 5px; 
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px; 
-    border-bottom-right-radius: 5px;
-    background: #000000;
-    color: #ffffff;
-    width:100%; 
-    height:400px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   background: #000000;
+   color: #ffffff;
+   width:100%; 
+   height:400px;
 }
 
 .files {
-    -moz-border-radius-topleft: 5px; 
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px; 
-    border-bottom-left-radius: 5px;
-    -moz-border-radius-topright: 5px; 
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px; 
-    border-bottom-right-radius: 5px;
-    background: #000000;
-    color: #ffffff;
-    padding-left: 14px; 
-    width: 650px; 
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   background: #000000;
+   color: #ffffff;
+   padding-left: 14px; 
+   width: 650px; 
 }
 
 .files_frame {
-    -moz-border-radius-topleft: 5px; 
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px; 
-    border-bottom-left-radius: 5px;
-    -moz-border-radius-topright: 5px; 
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px; 
-    border-bottom-right-radius: 5px;
-    background: #000000;
-    color: #ffffff;
-    width:100%; 
-    height:200px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   background: #000000;
+   color: #ffffff;
+   width:100%; 
+   height:200px;
 }
 
 .dbs {
-    -moz-border-radius-topleft: 5px; 
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px; 
-    border-bottom-left-radius: 5px;
-    -moz-border-radius-topright: 5px; 
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px; 
-    border-bottom-right-radius: 5px;
-    background: #000000;
-    color: #ffffff;
-    padding-left: 14px; 
-    width: 650px; 
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   background: #000000;
+   color: #ffffff;
+   padding-left: 14px; 
+   width: 650px; 
 }
 
 .dbs_frame {
-    -moz-border-radius-topleft: 5px; 
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px; 
-    border-bottom-left-radius: 5px;
-    -moz-border-radius-topright: 5px; 
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px; 
-    border-bottom-right-radius: 5px;
-    background: #000000;
-    color: #ffffff;
-    width:100%; 
-    height:200px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   background: #000000;
+   color: #ffffff;
+   width:100%; 
+   height:200px;
 }
 
 .settings_frame {
@@ -373,6 +338,7 @@ input[type=checkbox] {
 
 .settings input {
    border: 1px solid #818185; 
+   -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
    border-radius: 5px;
    height:30px;
@@ -417,6 +383,8 @@ input[type=checkbox] {
     color: white;
     border-radius: 5px;
     font: 14px "Helvetica Neue", Sans-Serif;
+    -moz-box-shadow: 0 0 7px black;
+    -webkit-box-shadow: 0 0 7px black;
     box-shadow: 0 0 7px black;
 }
 
@@ -446,6 +414,8 @@ input[type=checkbox] {
     top: -20px;
     width: 25px;
     height: 25px;
+    -moz-box-shadow: 6px 5px 9px -9px black;
+    -webkit-box-shadow: 6px 5px 9px -9px black;
     box-shadow: 6px 5px 9px -9px black;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
