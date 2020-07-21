@@ -1,6 +1,14 @@
 Zipit Backup Utility Installer
 ==============================
 
+# Deprecated
+
+## This tool is no longer being updated. 
+
+## If you are still using it I recommend that you look for an alternative.
+
+------------
+
 Installer for the Zipit Backup Utility: Full featured backup utility for Rackspace Cloud Sites&reg;
 
 Installation
